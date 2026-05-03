@@ -27,12 +27,12 @@ export const navLinks = [
 ];
 
 export const targetRoles = [
-  "UX/UI Design Intern",
-  "Junior Product Designer",
-  "Front-End Developer Intern",
-  "Graduate Digital Analyst",
-  "Business Systems Analyst",
-  "UX Research Assistant",
+  "Data Scientist",
+  "Information Systems Manager",
+  "IT Project Manager",
+  "Database Architect / Administrator",
+  "Security Specialist / Cybersecurity Analyst",
+  "Supply Chain Analyst",
 ];
 
 export const employerSnapshot = [
