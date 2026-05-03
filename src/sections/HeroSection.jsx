@@ -23,11 +23,11 @@ export default function HeroSection() {
           </div>
 
           <h1 className="max-w-4xl text-4xl font-extrabold tracking-tight text-slate-950 md:text-6xl">
-            UX-minded digital graduate connecting users, data and business systems.
+            Data-focused information systems graduate connecting analytics, operations and business systems.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700">
-            I am Shina Rose Dsouza, a current MSc Information Systems for Business Performance student at University College Cork. I am preparing for UX/UI, front-end, product and digital analyst roles where I can turn user needs and business goals into clear, useful digital experiences.
+            I am Shina Rose Dsouza, a current MSc Information Systems for Business Performance student at University College Cork. I am preparing for data science, information systems, IT project, database, cybersecurity and supply chain analyst roles where I can turn data, systems knowledge and business goals into clear, useful insights.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
@@ -53,13 +53,13 @@ export default function HeroSection() {
               <div className="bg-gradient-to-br from-slate-950 via-rose-900 to-purple-900 p-8 text-white">
                 <ProfilePhoto />
                 <h2 className="mt-6 text-2xl font-bold">Shina Rose Dsouza</h2>
-                <p className="mt-2 text-rose-50">Current MSc Student · UX/UI & Digital Product Focus</p>
+                <p className="mt-2 text-rose-50">Current MSc Student · Data, Systems & Operations Focus</p>
               </div>
 
               <div className="space-y-4 bg-white p-8 text-sm font-medium text-slate-700">
                 <div className="flex items-center gap-3 border-l-4 border-rose-200 bg-rose-50/60 px-4 py-3 text-rose-900"><Icon name="mapPin" /> Cork, Ireland</div>
                 <div className="flex items-center gap-3 border-l-4 border-purple-200 bg-purple-50/60 px-4 py-3 text-purple-900"><Icon name="graduation" /> MSc Information Systems for Business Performance, UCC</div>
-                <div className="flex items-center gap-3 border-l-4 border-pink-200 bg-pink-50/60 px-4 py-3 text-pink-900"><Icon name="briefcase" /> Seeking UX, front-end, product and digital roles</div>
+                <div className="flex items-center gap-3 border-l-4 border-pink-200 bg-pink-50/60 px-4 py-3 text-pink-900"><Icon name="briefcase" /> Seeking data, systems, cybersecurity and supply chain roles</div>
                 <LinkButton href={actionLinks.linkedIn} variant="dark" icon="linkedin" external ariaLabel="Open Shina Rose Dsouza LinkedIn profile in a new tab">View LinkedIn Profile</LinkButton>
               </div>
             </CardContent>
