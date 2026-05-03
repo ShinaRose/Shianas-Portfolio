@@ -366,7 +366,7 @@ export default function ShinaPortfolio() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700">
-                I am Shina Rose Dsouza, a current MSc Information Systems for Business Performance student at University College Cork. I am preparing for UX/UI, front-end, product and digital analyst roles where I can turn user needs and business goals into clear, useful digital experiences.
+                I am Shina Rose Dsouza, a current MSc Information Systems for Business Performance student at University College Cork. I am preparing for data science, information systems, IT project, database, cybersecurity and supply chain analyst roles where I can turn data, systems knowledge and business goals into clear, useful insights.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
