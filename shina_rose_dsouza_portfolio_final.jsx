@@ -40,7 +40,7 @@ const targetRoles = [
 
 const employerSnapshot = [
   { label: "Status", value: "Current MSc student" },
-  { label: "Focus", value: "UX, digital products & information systems" },
+  { label: "Focus", value: "Data, Systems & Operations" },
   { label: "Location", value: "Cork, Ireland" },
   { label: "Availability", value: "Open to graduate and entry-level roles" },
 ];
@@ -411,7 +411,7 @@ export default function ShinaPortfolio() {
                       <Icon name="graduation" /> MSc Information Systems for Business Performance, UCC
                     </div>
                     <div className="flex items-center gap-3 border-l-4 border-pink-200 bg-pink-50/60 px-4 py-3 text-pink-900">
-                      <Icon name="briefcase" /> Seeking UX, front-end, product and digital roles
+                      <Icon name="briefcase" /> Seeking data, systems, cybersecurity and supply chain roles
                     </div>
                     <LinkButton href="https://www.linkedin.com/in/shina-rose-dsouza-443a63287/" variant="dark" icon="linkedin" external ariaLabel="Open Shina Rose Dsouza LinkedIn profile in a new tab">
                       View LinkedIn Profile
