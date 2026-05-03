@@ -362,7 +362,7 @@ export default function ShinaPortfolio() {
               </div>
 
               <h1 className="max-w-4xl text-4xl font-extrabold tracking-tight text-slate-950 md:text-6xl">
-                UX-minded digital graduate connecting users, data and business systems.
+                Data-focused information systems graduate connecting analytics, operations and business systems.
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-700">
