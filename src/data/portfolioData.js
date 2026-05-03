@@ -37,16 +37,16 @@ export const targetRoles = [
 
 export const employerSnapshot = [
   { label: "Status", value: "Current MSc student" },
-  { label: "Focus", value: "UX, digital products & information systems" },
+  { label: "Focus", value: "Data, systems, cybersecurity & supply chain" },
   { label: "Location", value: "Cork, Ireland" },
   { label: "Availability", value: "Open to graduate and entry-level roles" },
 ];
 
 export const skillGroups = [
   {
-    title: "UX/UI Design",
-    description: "Designing clear journeys, layouts and interfaces that help users complete tasks with less friction.",
-    skills: ["User-centred design", "Wireframing", "Information architecture", "Journey mapping", "Usability thinking"],
+  title: "Data Science & Analytics",
+  description: "Analysing data, building dashboards and turning business information into useful decisions.",
+  skills: ["Python", "SQL", "Excel", "Dashboards", "Data visualisation", "Statistical analysis"],
   },
   {
     title: "Front-End Development",
