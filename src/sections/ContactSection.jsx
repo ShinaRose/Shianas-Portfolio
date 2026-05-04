@@ -11,7 +11,7 @@ export default function ContactSection() {
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.18em] text-rose-100">Contact</p>
               <h2 className="mt-3 text-3xl font-extrabold tracking-tight">Let’s connect about graduate data, systems and supply chain opportunities..</h2>
-              <p className="mt-4 max-w-2xl text-rose-50">I am currently open to graduate, internship and entry-level opportunities across UX/UI design, front-end development, product design, digital analysis and information systems. Please get in touch if my background could support your team.</p>
+              <p className="mt-4 max-w-2xl text-rose-50">I am currently open to graduate, internship and entry-level opportunities across data science, information systems, IT project management, database administration, cybersecurity analysis and supply chain analysis. Please get in touch if my background could support your team.</p>
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row md:flex-col">
