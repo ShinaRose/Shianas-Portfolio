@@ -77,20 +77,21 @@ export const skillGroups = [
 
 export const featuredWork = [
   {
-  title: "AI Career Path Recommender",
-  label: "Streamlit data app",
-  role: "Data Analyst / App Developer",
-  tools: ["Python", "Streamlit", "Pandas", "Scikit-learn", "Cosine similarity"],
-  problem: "Students exploring IT and data careers may not know which roles match their current skills or what skills to improve next.",
-  approach: [
-    "Built an interactive Streamlit app where users rate skills such as Python, SQL, communication, problem solving, cybersecurity interest and data visualisation.",
-    "Compared the user profile with career profiles using cosine similarity.",
-    "Ranked career matches and displayed recommended skills, certifications and a 30-day action plan.",
-  ],
-  outcome: "A working career recommendation app that demonstrates Python, data analysis, machine learning similarity scoring and practical decision-support thinking.",
-  contribution: "Built the app structure, career matching logic, CSV data model and recommendation output.",
-  icon: "chart",
-},
+    title: "AI Career Path Recommender",
+    label: "Streamlit data app",
+    role: "Data Analyst / App Developer",
+    tools: ["Python", "Streamlit", "Pandas", "Scikit-learn", "Cosine similarity"],
+    liveUrl: "https://ai-career-path-recommender-ymk2wre3xhybtxigottkqw.streamlit.app/",
+    problem: "Students exploring IT and data careers may not know which roles match their current skills or what skills to improve next.",
+    approach: [
+      "Built an interactive Streamlit app where users rate skills such as Python, SQL, communication, problem solving, cybersecurity interest and data visualisation.",
+      "Compared the user profile with career profiles using cosine similarity.",
+      "Ranked career matches and displayed recommended skills, certifications and a 30-day action plan.",
+    ],
+    outcome: "A working career recommendation app that demonstrates Python, data analysis, machine learning similarity scoring and practical decision-support thinking.",
+    contribution: "Built the app structure, career matching logic, CSV data model and recommendation output.",
+    icon: "chart",
+  },
   {
     title: "Student Services Data & Systems Improvement Concept",
     label: "Information systems case study",
@@ -152,7 +153,6 @@ export const featuredWork = [
     icon: "chart",
   },
 ];
-
 export const educationHighlights = [
   {
     title: "MSc Information Systems for Business Performance",
