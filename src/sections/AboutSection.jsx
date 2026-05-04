@@ -16,7 +16,7 @@ export default function AboutSection() {
           <CardContent className="p-7">
             <h3 className="text-xl font-extrabold text-slate-950">Role fit</h3>
             <p className="mt-3 leading-7 text-slate-700">
-              I am best suited to teams that value curiosity, clear communication, structured thinking and a willingness to learn across design, technology and business.
+             I am best suited to teams that value curiosity, clear communication, structured thinking and a willingness to learn across data, information systems, operations and business.
             </p>
             <div className="mt-5 grid gap-3 sm:grid-cols-2">
               {targetRoles.map((role) => <div key={role} className="border-l-4 border-rose-300 bg-white px-4 py-3 text-sm font-extrabold text-slate-800">{role}</div>)}
