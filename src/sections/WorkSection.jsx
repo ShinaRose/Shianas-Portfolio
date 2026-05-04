@@ -9,8 +9,8 @@ export default function WorkSection() {
       <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <SectionHeading
           eyebrow="Featured Work"
-          title="Focused case studies for UX, product and digital roles."
-          description="These projects are framed around the things employers look for: the problem, my role, my process, my contribution and the outcome. They connect my Information Systems for Business Performance course with practical design and digital problem-solving."
+          title="Focused case studies for data, systems and supply chain roles."
+          description="These projects are framed around the things employers look for: the problem, my role, my process, my contribution and the outcome. They connect my Information Systems for Business Performance course with practical data analysis, systems thinking and business problem-solving."
         />
 
         <div className="space-y-8">
@@ -21,13 +21,32 @@ export default function WorkSection() {
                   <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-rose-100 to-purple-100 text-rose-800">
                     <Icon name={project.icon} className="h-6 w-6" />
                   </div>
+
                   <p className="text-sm font-bold uppercase tracking-[0.16em] text-rose-700">{project.label}</p>
                   <h3 className="mt-3 text-3xl font-extrabold tracking-tight text-slate-950">{project.title}</h3>
                   <p className="mt-3 text-base font-bold text-slate-700">My role: {project.role}</p>
                   <p className="mt-3 text-sm font-semibold text-slate-500">Case study {index + 1}</p>
+
                   <div className="mt-5 flex flex-wrap gap-x-2 gap-y-2 text-xs font-bold uppercase tracking-wide text-purple-800">
-                    {project.tools.map((tool, toolIndex) => <span key={tool}>{tool}{toolIndex < project.tools.length - 1 ? " ·" : ""}</span>)}
+                    {project.tools.map((tool, toolIndex) => (
+                      <span key={tool}>
+                        {tool}
+                        {toolIndex < project.tools.length - 1 ? " ·" : ""}
+                      </span>
+                    ))}
                   </div>
+
+                  {project.liveUrl && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="mt-6 inline-flex items-center justify-center rounded-2xl bg-slate-950 px-5 py-3 text-sm font-bold text-white shadow-lg shadow-slate-200 transition hover:-translate-y-0.5 hover:bg-slate-800"
+                      aria-label={`Open live app for ${project.title}`}
+                    >
+                      View Live App
+                    </a>
+                  )}
                 </div>
 
                 <div className="space-y-5">
@@ -41,7 +60,9 @@ export default function WorkSection() {
                     <ul className="mt-3 space-y-2">
                       {project.approach.map((step) => (
                         <li key={step} className="flex gap-3 text-sm leading-6 text-slate-700">
-                          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-100 text-rose-800"><Icon name="check" className="h-3.5 w-3.5" /></span>
+                          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-100 text-rose-800">
+                            <Icon name="check" className="h-3.5 w-3.5" />
+                          </span>
                           <span>{step}</span>
                         </li>
                       ))}
@@ -53,6 +74,7 @@ export default function WorkSection() {
                       <h4 className="text-sm font-extrabold uppercase tracking-[0.14em] text-slate-500">Outcome</h4>
                       <p className="mt-2 text-sm leading-6 text-slate-700">{project.outcome}</p>
                     </div>
+
                     <div>
                       <h4 className="text-sm font-extrabold uppercase tracking-[0.14em] text-slate-500">My contribution</h4>
                       <p className="mt-2 text-sm leading-6 text-slate-700">{project.contribution}</p>
